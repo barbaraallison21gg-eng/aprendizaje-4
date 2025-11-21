@@ -1,0 +1,20 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: hwb(300 82% 6%);
+  color: hwb(0 3% 97%);
+    padding: 20px;
+
+}
+
+h1, h2 {
+  color: hsl(247, 93%, 45%);
+  font-weight: bold;
+  margin-top: 60px;
+
+
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
