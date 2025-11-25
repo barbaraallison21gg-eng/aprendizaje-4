@@ -1,6 +1,5 @@
 body {
   font-family: 'arial', Times, serif, sans-serif;
-  background-color:#f6f8fa;
   color: hwb(0 3% 97%);
     padding: 20px;
 
@@ -34,4 +33,21 @@ border: none;
   margin-bottom: 10px;
     background: linear-gradient(135deg, #f6f8fa 60%, #e0e7ff 100%);
   padding: 8px;
+
+}
+body {
+  background: url(../img/pexels-codioful-7135014.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* Puedes combinar también con un color de fondo para mejor acceso */
+}
+.perfil-img {
+  object-fit: cover;
+  object-position: center;
+  width: 120px;
+  height: 120px;
+  border: 4px solid #bfdafd;
+  box-shadow: 0 4px 12px rgba(36,71,124,0.08);
+}
+.card {
+  border-radius: 1.2rem;
 }
